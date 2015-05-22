@@ -1,5 +1,5 @@
 #Make sure the source data for the project is extracted in your working directory
-
+#This R script will create a text file called "tidy_data_set" in your working directory
 if (!require("reshape2")) {
   install.packages("reshape2")
 }
